@@ -14,7 +14,7 @@ node(){
         stage("Deploy") {
             println "Deploy app"
         }
-    } catch("Exception") {
+    } catch(Exception e) {
         println "Exception occured"
     } finally() {
         deleteDir()

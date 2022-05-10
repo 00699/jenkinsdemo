@@ -16,7 +16,7 @@ node(){
         }
     } catch(Exception e) {
         println "Exception occured"
-    } finally() {
+    } finally {
         deleteDir()
     }
 }
